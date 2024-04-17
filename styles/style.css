@@ -457,6 +457,7 @@ table {
 html, body {
   font-family: "Inter", sans-serif;
   font-size: 10px;
+  font-weight: 400;
   width: 100%;
   height: 100%;
   overflow: hidden; }
@@ -469,7 +470,8 @@ html, body {
 
 /* Headers */
 h1, h2, h3 {
-  font-weight: 900; }
+  font-weight: 900;
+  color: #000; }
 
 h1 {
   font-size: 7rem;
@@ -490,5 +492,14 @@ h3 {
   margin-bottom: 1.2rem; }
 
 /* End Headers */
+/* Paragraph */
+p {
+  color: rgba(42, 43, 47, 0.9);
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.01em;
+  margin: 0; }
+
+/* End Paragraph */
 
 /*# sourceMappingURL=style.css.map */
