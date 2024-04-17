@@ -17,3 +17,32 @@ html, body {
   overflow: auto;
   text-align: center;
 }
+
+/* Headers */
+
+h1, h2, h3 {
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 7rem;
+  line-height: 7rem;
+  letter-spacing: -0.05em;
+  margin-bottom: 2.4rem;
+}
+
+h2 {
+  font-size: 6rem;
+  line-height: 6rem;
+  letter-spacing: -0.05em;
+  margin-bottom: 2.4rem;
+}
+
+h3 {
+  font-size: 3.4rem;
+  line-height: 3.4rem;
+  letter-spacing: -0.03em;
+  margin-bottom: 1.2rem;
+}
+
+/* End Headers */
