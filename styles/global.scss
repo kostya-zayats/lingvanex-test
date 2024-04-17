@@ -19,6 +19,13 @@ html, body {
   text-align: center;
 }
 
+/* Remove outline */
+a {
+  text-decoration: none;
+  outline: none !important;
+}
+/* End Remove outline */
+
 /* Headers */
 
 h1, h2, h3 {
@@ -52,7 +59,7 @@ h3 {
 /* Paragraph */
 
 p {
-  color: $paragraph-text-main-color;
+  color: $paragraph-main-text-color;
   font-size: 1.8rem;
   line-height: 2.5rem;
   letter-spacing: -0.01em;
@@ -60,3 +67,38 @@ p {
 }
 
 /* End Paragraph */
+
+/* Buttons */
+
+.main-btn, .secondary-btn {
+  display: block;
+  margin: 0 auto;
+  font-weight: 600;
+  border-radius: 1.2rem;
+}
+
+.main-btn {
+  max-width: 36.6rem;
+  padding: 2rem 0;
+  background-color: $active-color;
+  color: $button-main-text-color;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  letter-spacing: -0.01em;
+}
+
+.secondary-btn {
+  background-color: $button-secondary-bg;
+  color: $button-secondary-text-color;
+  padding: 1.6rem 3.2rem;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  letter-spacing: -0.03em;
+
+  &.active {
+    background-color: $active-color;
+    color: $button-main-text-color;
+  }
+}
+
+/* End Buttons */
