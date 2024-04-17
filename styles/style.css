@@ -507,6 +507,28 @@ p {
   margin: 0; }
 
 /* End Paragraph */
+/* List */
+ul {
+  text-align: left;
+  list-style-type: none; }
+  ul li {
+    position: relative;
+    color: rgba(42, 43, 47, 0.9);
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.01em;
+    padding-left: 2.8rem; }
+    ul li:before {
+      content: "";
+      position: absolute;
+      left: 1.1rem;
+      top: 1.1rem;
+      width: .6rem;
+      height: .6rem;
+      background-color: rgba(42, 43, 47, 0.9);
+      border-radius: 50%; }
+
+/* End List */
 /* Buttons */
 .main-btn, .secondary-btn {
   display: block;
