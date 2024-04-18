@@ -451,6 +451,7 @@ table {
 #yui3-css-stamp.cssnormalize {
   display: none; }
 
+/* Containers */
 * {
   box-sizing: border-box; }
 
@@ -468,6 +469,16 @@ html, body {
   overflow: auto;
   text-align: center; }
 
+.content-width {
+  max-width: 134rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5rem; }
+  @media (max-width: 900px) {
+    .content-width {
+      padding: 0 2rem; } }
+
+/* End Containers */
 /* Remove outline */
 a {
   text-decoration: none;
@@ -557,5 +568,12 @@ ul {
     color: #fff; }
 
 /* End Buttons */
+.intro-section {
+  padding: 16rem 0 8rem; }
+  .intro-section p {
+    max-width: 70rem;
+    font-family: "Manrope", sans-serif;
+    color: rgba(42, 43, 47, 0.8);
+    margin: 0 auto 4rem; }
 
 /*# sourceMappingURL=style.css.map */
