@@ -1,0 +1,44 @@
+.solution-section {
+  padding: 6.4rem 0 8rem;
+
+  p {
+    max-width: 70rem;
+    margin: 0 auto 2.5rem;
+    color: $solution-paragraph-color;
+  }
+}
+
+.solution-unit-wrap {
+  margin-top: 7rem;
+  padding: 0 0 6.4rem;
+}
+
+.solution-unit-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.solution-unit {
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+  flex: 1 0 40rem;
+  padding: 2.2rem 1.4rem 1.4rem;
+  border: .2rem solid $solution-unit-border-color;
+  border-radius: 3.2rem;
+  box-shadow: 0 .2rem .6rem 0 rgba(0, 0, 0, 0.08);
+
+  p {
+    margin-bottom: 1.6rem;
+    color: $solution-unit-paragraph-color;
+  }
+
+  img {
+    margin: auto auto 0;
+    max-width: 100%;
+    display: block;
+  }
+}

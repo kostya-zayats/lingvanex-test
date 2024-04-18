@@ -451,6 +451,16 @@ table {
 #yui3-css-stamp.cssnormalize {
   display: none; }
 
+/* Main Colors */
+/* End Main Colors */
+/* Headers colors */
+/* End Headers colors */
+/* Button Colors */
+/* End Button Colors */
+/* Intro colors */
+/* End Intro colors */
+/* Solution Colors */
+/* End Solution Colors */
 /* Containers */
 * {
   box-sizing: border-box; }
@@ -575,5 +585,40 @@ ul {
     font-family: "Manrope", sans-serif;
     color: rgba(42, 43, 47, 0.8);
     margin: 0 auto 4rem; }
+
+.solution-section {
+  padding: 6.4rem 0 8rem; }
+  .solution-section p {
+    max-width: 70rem;
+    margin: 0 auto 2.5rem;
+    color: rgba(42, 43, 47, 0.9); }
+
+.solution-unit-wrap {
+  margin-top: 7rem;
+  padding: 0 0 6.4rem; }
+
+.solution-unit-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 2rem; }
+
+.solution-unit {
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+  flex: 1 0 40rem;
+  padding: 2.2rem 1.4rem 1.4rem;
+  border: 0.2rem solid rgba(0, 0, 0, 0.04);
+  border-radius: 3.2rem;
+  box-shadow: 0 0.2rem 0.6rem 0 rgba(0, 0, 0, 0.08); }
+  .solution-unit p {
+    margin-bottom: 1.6rem;
+    color: rgba(0, 0, 0, 0.8); }
+  .solution-unit img {
+    margin: auto auto 0;
+    max-width: 100%;
+    display: block; }
 
 /*# sourceMappingURL=style.css.map */
