@@ -1,6 +1,8 @@
 /* Main Colors */
 $active-color: #0146fe;
+$main-bg: #fff;
 $main-text-color: rgba(42, 43, 47, 0.9);
+$main-border-color: rgba(0, 0, 0, 0.04);
 /* End Main Colors */
 
 /* Headers colors */
@@ -20,8 +22,15 @@ $intro-paragraph-color: rgba(42, 43, 47, 0.8);
 /* Solution Colors */
 $solution-paragraph-color: rgba(42, 43, 47, 0.9);
 $solution-unit-paragraph-color: rgba(0, 0, 0, 0.8);
-$solution-unit-border-color: rgba(0, 0, 0, 0.04);
+$solution-unit-shadow-color: rgba(0, 0, 0, 0.08);
 /* End Solution Colors */
+
+/* Product-for Colors */
+$product-for-paragraph-color: rgba(42, 43, 47, 0.8);
+$product-for-shadow-color: rgba(0, 0, 0, 0.12);
+$product-for-shadow-underlay-primary-color: rgba(0, 0, 0, 0.06);
+$product-for-shadow-underlay-secondary-color: rgba(0, 0, 0, 0.04);
+/* End Product-for Colors */
 
 /* Help Colors */
 $help-bg: #f4f6fd;

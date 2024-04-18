@@ -461,6 +461,8 @@ table {
 /* End Intro colors */
 /* Solution Colors */
 /* End Solution Colors */
+/* Product-for Colors */
+/* End Product-for Colors */
 /* Help Colors */
 /* End Help Colors */
 /* Containers */
@@ -667,6 +669,74 @@ ul {
     display: block;
     max-width: 100%;
     max-height: 100%; }
+
+.product-for-section {
+  padding: 7rem 0 8rem; }
+  .product-for-section p {
+    max-width: 80rem;
+    margin: 0 auto 2.5rem;
+    color: rgba(42, 43, 47, 0.8); }
+
+.product-for-tabs {
+  margin: 6.4rem 0 12rem; }
+
+.product-for-tabs-nav {
+  margin-bottom: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem; }
+  .product-for-tabs-nav .secondary-btn {
+    margin: 0; }
+
+.product-for-tabs-wrap {
+  max-width: 113.7rem;
+  margin: 0 auto;
+  text-align: left;
+  position: relative; }
+  .product-for-tabs-wrap:before, .product-for-tabs-wrap:after {
+    content: "";
+    background-color: #fff;
+    border-radius: 3.2rem;
+    height: 7rem;
+    position: absolute; }
+  .product-for-tabs-wrap:before {
+    left: 5.4rem;
+    right: 4.1rem;
+    bottom: -2.7rem;
+    border: 0.2rem solid rgba(0, 0, 0, 0.04);
+    z-index: 9;
+    box-shadow: 0 1.2rem 1.2rem 0 rgba(0, 0, 0, 0.06); }
+  .product-for-tabs-wrap:after {
+    left: 8.8rem;
+    right: 7.6rem;
+    bottom: -5.6rem;
+    border: 0.2rem solid rgba(0, 0, 0, 0.04);
+    z-index: 8;
+    box-shadow: 0 1.2rem 1.2rem 0 rgba(0, 0, 0, 0.04); }
+
+.product-for-tabs-content {
+  padding: 4.2rem;
+  border: 0.2rem solid rgba(0, 0, 0, 0.04);
+  border-radius: 3.2rem;
+  box-shadow: 0 0.4rem 1.2rem 0 rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  position: relative;
+  z-index: 10; }
+
+.product-for-tab-unit {
+  display: none;
+  justify-content: space-between; }
+  .product-for-tab-unit.active {
+    display: flex; }
+
+.product-for-tab-unit-desc {
+  flex-grow: 1;
+  padding-right: 3.2rem; }
+
+.product-for-tab-unit-photo img {
+  border-radius: 3.2rem;
+  display: block; }
 
 /* End Sections */
 

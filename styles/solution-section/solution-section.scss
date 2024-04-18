@@ -27,9 +27,9 @@
   max-width: 40rem;
   flex: 1 0 40rem;
   padding: 2.2rem 1.4rem 1.4rem;
-  border: .2rem solid $solution-unit-border-color;
+  border: .2rem solid $main-border-color;
   border-radius: 3.2rem;
-  box-shadow: 0 .2rem .6rem 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 .2rem .6rem 0 $solution-unit-shadow-color;
 
   p {
     margin-bottom: 1.6rem;
